@@ -8,3 +8,5 @@ mod "puppetlabs/stdlib"
 mod "puppet/staging"
 mod 'puppet-logrotate'
 mod "puppet/nginx"
+
+# add more modules in here - lyz
