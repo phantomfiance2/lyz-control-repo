@@ -10,3 +10,5 @@ mod 'puppet-logrotate'
 mod "puppet/nginx"
 
 # add more modules in here - lyz
+#
+# also add custom modules in here - lyz
