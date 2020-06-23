@@ -8,4 +8,4 @@ mod "puppetlabs/stdlib"
 mod "puppet/staging"
 mod 'puppet-logrotate'
 mod "puppet/nginx"
-mod "puppet/apache"
+mod "puppetlabs/apache"
