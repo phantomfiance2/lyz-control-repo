@@ -11,4 +11,4 @@ mod "puppet/nginx"
 mod "puppetlabs/apache"
 
 # Modules from my defined
-mod "pe_getstarted_app"
+include "pe_getstarted_app"
