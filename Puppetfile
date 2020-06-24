@@ -9,6 +9,3 @@ mod "puppet/staging"
 mod 'puppet-logrotate'
 mod "puppet/nginx"
 mod "puppetlabs/apache"
-
-# Modules from my defined
-include "pe_getstarted_app"
