@@ -4,9 +4,7 @@
 #
 # @example
 #   include pe_getstarted_app
-class pe_getstarted_app (
-  $content = "<?php phpinfo() ?>\n",
-) {
+class pe_getstarted_app {
 
   class { 'apache':
     mpm_module => 'prefork',
@@ -22,7 +20,7 @@ class pe_getstarted_app (
 
   file { '/var/www/pe_getstarted_app/index.php':
     ensure  => file,
-    content => $content,
+    content => 'here are some sample lyz content',
     mode    => '0644',
   }
 
